@@ -25,4 +25,4 @@ jobs:
       run: dotnet build src/aec-ccc-prototype/aec-ccc-prototype.sln --configuration Release --no-restore
 
     - name: Run Tests
-      run: dotnet test src/aec-ccc-prototype/aec-ccc-prototype.sln --no-build --verbosity normal
+      run: dotnet test src/aec-ccc-prototype/aec-ccc-prototype.sln --configuration Release --no-build --verbosity normal
