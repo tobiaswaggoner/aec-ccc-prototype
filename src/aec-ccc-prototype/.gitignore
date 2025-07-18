@@ -1,0 +1,35 @@
+﻿# Build- und Debug-Ordner
+bin/
+obj/
+out/
+
+# NuGet-Pakete
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Benutzer- und Konfigurationsdateien
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider / IntelliJ
+.idea/
+
+# Umgebungsdateien
+.env
+
+# Sonstige temporäre Dateien
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Testresultate
+TestResults/
